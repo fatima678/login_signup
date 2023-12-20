@@ -1,0 +1,12 @@
+body{
+    background-color: green; 
+} 
+.input{
+    display: flex;
+    
+}
+.img{
+    height: 50px;
+    width: 30px;
+
+}
