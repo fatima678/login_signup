@@ -13,7 +13,7 @@ const LoginSignup = () => {
             <div className="text">Signup</div>
            <div className='underline'></div>
         </div>
-        <div className='inputs'>
+        <div className='inputs'> 
             <div className='input'>
                 <img className='img' src={person_icon} alt=''></img>
                 <input type='text'/>

@@ -3,10 +3,42 @@ body{
 } 
 .input{
     display: flex;
-    
 }
 .img{
     height: 50px;
     width: 30px;
 
+}
+.container{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    margin-top: 200px;
+    padding-bottom: 30px;
+    /* justify-content: center; */
+    align-items: center;
+}
+.header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 9px;
+    margin-top: 30px;
+
+}
+.text{
+    color: blue;
+    font-size: 30px;
+    font-weight: bold;
+}
+.inputs{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.input{
+    background-color: grey;
+    border-radius: 10px;
 }
