@@ -16,15 +16,15 @@ const LoginSignup = () => {
         <div className='inputs'> 
             <div className='input'>
                 <img className='img' src={person_icon} alt=''></img>
-                <input type='text'/>
+                <input type='text' placeholder='Name'/>
             </div>
             <div className='input'>
                 <img  className='img'src={email_icon} alt='' ></img>
-                <input type='email'/>
+                <input type='email' placeholder='Email'/>
             </div>
             <div className='input'>
                 <img className='img'src={password_icon} alt=''></img>
-                <input type='password'/>
+                <input type='password' placeholder='Password'/>
             </div>
 
         </div>
